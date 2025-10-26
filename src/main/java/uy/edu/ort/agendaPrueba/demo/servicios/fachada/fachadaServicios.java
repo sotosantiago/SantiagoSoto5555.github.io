@@ -21,5 +21,7 @@ public class fachadaServicios {
     public Usuario login(String nombre, String contrasena) {
         return sUsuarios.login(nombre, contrasena);
     }
-
+    public void agregarUsuario(Usuario usuario) {
+        sUsuarios.agregarUsuario(usuario);
+    }
 }

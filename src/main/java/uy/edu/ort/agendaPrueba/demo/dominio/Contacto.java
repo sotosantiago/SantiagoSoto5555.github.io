@@ -8,10 +8,11 @@ public class Contacto {
     @Getter
     private String telefono;
     @Getter
-    private String email;
-    public Contacto(String nombre, String telefono, String email) {
+    private TipoContacto tipoContacto;
+
+    public Contacto(String nombre, String telefono, TipoContacto tipoContacto) {
         this.nombre = nombre;
         this.telefono = telefono;
-        this.email = email;
+        this.tipoContacto = tipoContacto;
     }
 }
